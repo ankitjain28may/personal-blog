@@ -1,0 +1,24 @@
+uuid: ec40997a-16ce-45ca-a78c-cf94df2e850f
+langcode: en
+status: false
+dependencies:
+  module:
+    - adsense_oldcode
+  theme:
+    - mediumish_blog
+id: mediumish_blog_oldcodead
+theme: mediumish_blog
+region: navigation
+weight: 0
+provider: null
+plugin: adsense_oldcode_ad_block
+settings:
+  id: adsense_oldcode_ad_block
+  label: 'Old code ad'
+  provider: adsense_oldcode
+  label_display: '0'
+  ad_format: 250x250
+  ad_style: '1'
+  ad_channel: ''
+  ad_align: center
+visibility: {  }

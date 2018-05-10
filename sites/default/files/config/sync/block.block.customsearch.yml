@@ -1,0 +1,21 @@
+uuid: 8c5016aa-04fb-411e-af45-0ab9e1478c86
+langcode: en
+status: false
+dependencies:
+  module:
+    - adsense
+  theme:
+    - classic_blog
+id: customsearch
+theme: classic_blog
+region: sidebar_first
+weight: 0
+provider: null
+plugin: adsense_cse_ad_block
+settings:
+  id: adsense_cse_ad_block
+  label: 'Custom search'
+  provider: adsense
+  label_display: visible
+  ad_slot: '1556357279'
+visibility: {  }

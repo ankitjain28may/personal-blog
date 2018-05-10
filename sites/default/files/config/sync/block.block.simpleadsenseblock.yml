@@ -1,0 +1,21 @@
+uuid: c0c62bf8-d861-49a4-8695-1514905929fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - simple_adsense
+  theme:
+    - classic_blog
+id: simpleadsenseblock
+theme: classic_blog
+region: sidebar_first
+weight: 0
+provider: null
+plugin: simple_adsense_block
+settings:
+  id: simple_adsense_block
+  label: 'Simple adsense block'
+  provider: simple_adsense
+  label_display: '0'
+  slot: '1556357279'
+visibility: {  }

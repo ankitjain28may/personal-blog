@@ -1,0 +1,31 @@
+name: mediumish blog
+type: theme
+description: 'Template built specifically for Medium website design fans.'
+# core: 8.x
+libraries:
+  - mediumish_blog/global-css
+  - mediumish_blog/global-js
+  - mediumish_blog/font
+
+base theme: false
+
+# Regions
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  featured: Featured
+  recent_posts: Recent Posts
+  content: Content
+  related_posts: Related Posts
+  right_sidebar: Right Sidebar
+  footer: Footer
+
+
+# Information added by Drupal.org packaging script on 2018-04-23
+version: '8.x-1.5-beta6'
+core: '8.x'
+project: 'mediumish_blog'
+datestamp: 1524465188

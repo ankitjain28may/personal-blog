@@ -1,0 +1,25 @@
+uuid: fbe1bb1b-d58c-4867-a143-a78f0d0a469c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - mediumish_blog
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: mediumish_blog_branding
+theme: mediumish_blog
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

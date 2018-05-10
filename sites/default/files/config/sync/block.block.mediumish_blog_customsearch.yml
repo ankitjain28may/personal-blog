@@ -1,0 +1,21 @@
+uuid: 2319d016-b6fa-4a2a-b6e5-582eff822d95
+langcode: en
+status: false
+dependencies:
+  module:
+    - adsense
+  theme:
+    - mediumish_blog
+id: mediumish_blog_customsearch
+theme: mediumish_blog
+region: navigation
+weight: 0
+provider: null
+plugin: adsense_cse_ad_block
+settings:
+  id: adsense_cse_ad_block
+  label: 'Custom search'
+  provider: adsense
+  label_display: visible
+  ad_slot: '1556357279'
+visibility: {  }

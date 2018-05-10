@@ -1,0 +1,11 @@
+add_to_head_profiles:
+  adsense:
+    name: adsense
+    code: "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<script>\r\n  (adsbygoogle = window.adsbygoogle || []).push({\r\n    google_ad_client: \"ca-pub-3543986660328516\",\r\n    enable_page_level_ads: true\r\n  });\r\n</script>"
+    scope: head
+    paths:
+      visibility: exclude
+      paths: ''
+    roles:
+      visibility: exclude
+      list: {  }
