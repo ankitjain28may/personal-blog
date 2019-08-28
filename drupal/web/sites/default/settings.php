@@ -746,6 +746,13 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * example.org, with all subdomains included.
  */
 
+$settings['trusted_host_patterns'] = [
+  '^localhost$',
+  '^127\.0\.0\.1$',
+  '^ankitjain28\.xyz$',
+  '^.+\.ankitjain28\.xyz$',
+  ];
+
 /**
  * The default list of directories that will be ignored by Drupal's file API.
  *
@@ -802,5 +809,5 @@ $databases['default']['default'] = [
   'username' => getenv('MYSQL_USER'),
 ];
 
-$settings['install_profile'] = 'standard';
+// $settings['install_profile'] = 'standard';
 $config_directories['sync'] = '../config/sync';
