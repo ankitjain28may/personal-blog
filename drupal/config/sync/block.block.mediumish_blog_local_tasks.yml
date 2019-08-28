@@ -1,0 +1,22 @@
+uuid: 9ef61c49-9f9d-45c9-b8e7-1dc774fa05d4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mediumish_blog
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: mediumish_blog_local_tasks
+theme: mediumish_blog
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

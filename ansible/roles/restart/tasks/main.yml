@@ -1,0 +1,15 @@
+---
+
+- name: Deleting drupaldb container
+  command: docker rm drupaldb -f
+  ignore_errors: yes
+
+- name: Recreating drupaldb container
+  command: docker-compose up -d drupaldb
+  async: 1000
+  poll: 10
+  args:
+    chdir: "{{project_dir}}/{{project_folder_name}}"
+
+- name: Restarting Drupal Container
+  command: docker restart drupal

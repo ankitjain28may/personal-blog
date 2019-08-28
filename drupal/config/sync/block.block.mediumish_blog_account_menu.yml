@@ -1,0 +1,26 @@
+uuid: c446dce1-a1fd-47b1-8536-29184300510e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - mediumish_blog
+_core:
+  default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
+id: mediumish_blog_account_menu
+theme: mediumish_blog
+region: right_sidebar
+weight: -9
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

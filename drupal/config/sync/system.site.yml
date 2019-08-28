@@ -1,0 +1,15 @@
+uuid: b2689af9-8489-4093-b7d6-cbc546957037
+name: 'Ankit''s Blog'
+mail: ankitjain28may77@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /homepage
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

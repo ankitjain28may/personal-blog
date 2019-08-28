@@ -1,0 +1,19 @@
+uuid: 3ca94045-677a-4e53-8a8e-1282a2b60192
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'administer sharethis'
+  - 'post comments'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view disqus comments'

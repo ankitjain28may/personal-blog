@@ -1,0 +1,21 @@
+action_type: prevent_form
+disable_user_roles:
+  anonymous: 0
+  authenticated: 0
+  administrator: 0
+enable_user_roles:
+  anonymous: 0
+  authenticated: 0
+  administrator: 0
+general_form:
+  user_register_form: 0
+  user_profile_form: 0
+  webform: 0
+entity_node:
+  blog: blog
+  article: 0
+  page: 0
+entity_comment:
+  blog: blog
+  article: 0
+  page: 0

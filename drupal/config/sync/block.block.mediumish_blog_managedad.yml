@@ -1,0 +1,27 @@
+uuid: e06dcbac-b345-4da2-a9fd-dc9d3cf50684
+langcode: en
+status: true
+dependencies:
+  module:
+    - adsense
+  theme:
+    - mediumish_blog
+id: mediumish_blog_managedad
+theme: mediumish_blog
+region: right_sidebar
+weight: -8
+provider: null
+plugin: adsense_managed_ad_block
+settings:
+  id: adsense_managed_ad_block
+  label: 'Managed ad'
+  provider: adsense
+  label_display: '0'
+  ad_slot: '4486122308'
+  ad_format: 250x250
+  ad_width: 250
+  ad_height: 250
+  ad_shape:
+    auto: auto
+  ad_align: center
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: bb1fb594-1e54-4555-85d1-e791fc0361c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - simple_adsense
+  theme:
+    - mediumish_blog
+id: mediumish_blog_simpleadsenseblock
+theme: mediumish_blog
+region: right_sidebar
+weight: -7
+provider: null
+plugin: simple_adsense_block
+settings:
+  id: simple_adsense_block
+  label: 'Simple adsense block'
+  provider: simple_adsense
+  label_display: '0'
+  slot: '5317247423'
+visibility: {  }

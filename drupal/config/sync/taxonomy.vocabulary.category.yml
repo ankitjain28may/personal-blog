@@ -1,0 +1,9 @@
+uuid: 9085534f-3cbb-458f-902a-cfca00902ffb
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'Used to categorize blog posts.'
+hierarchy: 0
+weight: 0

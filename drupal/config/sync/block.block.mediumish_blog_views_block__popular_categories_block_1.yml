@@ -1,0 +1,24 @@
+uuid: 86e654cf-ba70-467a-9085-24f61ac5948b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.popular_categories
+  module:
+    - views
+  theme:
+    - mediumish_blog
+id: mediumish_blog_views_block__popular_categories_block_1
+theme: mediumish_blog
+region: right_sidebar
+weight: -11
+provider: null
+plugin: 'views_block:popular_categories-block_1'
+settings:
+  id: 'views_block:popular_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: '10'
+visibility: {  }

@@ -1,0 +1,50 @@
+button_option: stbc_large
+comments: 0
+late_load: 0
+location: content
+node_types:
+  blog: blog
+  article: null
+  page: null
+option_extras:
+  'Google Plus One:plusone': '0'
+  'Facebook Like:fblike': '0'
+option_neworzero: 0
+option_onhover: 1
+option_shorten: 1
+service_option: '"Facebook:facebook","Tweet:twitter","LinkedIn:linkedin","Email:email","ShareThis:sharethis","Pinterest:pinterest"'
+twitter_handle: ankitjain28may
+twitter_recommends: ''
+twitter_suffix: '@ankitjain28may'
+webform_options: ''
+weight: 10
+widget_option: st_multi
+cns:
+  donotcopy: null
+  hashaddress: null
+sharethisnodes:
+  article:
+    full: full
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+  page:
+    full: full
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+  blog:
+    full: '0'
+    rss: '0'
+    search_index: '0'
+    search_result: '0'
+    teaser: '0'
+    token: '0'
+_core:
+  default_config_hash: OUePCWmQ_tUOCD4VF7-AP0maPJi2Y18f0JvNTgThhRQ
+publisherID: dr-38419e69-9fa5-1c6-3888-bb4999df4a2c
+callesi: '0'
