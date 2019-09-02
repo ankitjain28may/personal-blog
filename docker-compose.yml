@@ -55,10 +55,12 @@ services:
     container_name: blog-webserver
     ports:
       - "${APP_PORT}:80"
+      - "443:443"
     environment:
       APP_PORT: '${APP_PORT}'
     volumes:
-      - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      # - ./config/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./config/nginx/drupal-ssl.conf:/etc/nginx/conf.d/default.conf
       - .:/var/www/html
       - certbot-etc:/etc/letsencrypt
     depends_on:
@@ -75,4 +77,4 @@ services:
     volumes:
       - certbot-etc:/etc/letsencrypt
       - .:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email ankitjain28may77@gmail.com --agree-tos --no-eff-email --staging -d ankitjain28.xyz -d www.ankitjain28.xyz
+    command: certonly --webroot --webroot-path=/var/www/html/drupal/web --email ankitjain28may77@gmail.com --agree-tos --no-eff-email --force-renewal -d ankitjain28.xyz -d www.ankitjain28.xyz

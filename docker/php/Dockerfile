@@ -14,7 +14,6 @@ RUN apt-get update && apt-get upgrade -y && \
     openssl \
     supervisor \
     memcached \
-    ssmtp \
     cron
 
 RUN apt-get update && apt-get install -y \
