@@ -2,11 +2,27 @@
 
 backend:
   name: git-gateway
-  branch: jekyll # Branch to update (optional; defaults to master)
+  repo: ankitjain28may/personal-blog
+  branch: jekyll
+
 media_folder: 'assets/uploads'
+
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
     fields:
-      - { name: Title }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Author', name: 'author', widget: 'string', default: "ankit" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "Hidden", name: "hidden", widget: "boolean", required: false, default: false }
+      - { label: "Featured", name: "featured", widget: "boolean", required: false, default: false }
