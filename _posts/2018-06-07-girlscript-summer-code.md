@@ -4,7 +4,7 @@ title:  "GirlScript Summer Of Code"
 author: ankit
 categories: [ Others ]
 tags: [GirlScript Summer Of Code, GSSoC]
-image: assets/drupal/2018-06/gssoc.jpg
+image: /assets/drupal/2018-06/gssoc.jpg
 featured: false
 hidden: false
 date: 2018-06-07T10:44:16+05:30

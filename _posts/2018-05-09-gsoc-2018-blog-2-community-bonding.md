@@ -4,7 +4,7 @@ title:  "GSoC 2018 - Blog 2 - Community Bonding"
 author: ankit
 categories: [ GSoC ]
 tags: [Google Summer of Code, Drupal]
-image: assets/drupal/2018-05/Screenshot-2018-5-11%20Google%20Summer%20of%20Code%284%29.png
+image: /assets/drupal/2018-05/Screenshot-2018-5-11%20Google%20Summer%20of%20Code%284%29.png
 featured: false
 hidden: false
 date: 2018-05-09T19:03:16+05:30

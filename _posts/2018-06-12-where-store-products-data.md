@@ -4,7 +4,7 @@ title:  "Where to store product's data?"
 author: ankit
 categories: [ Drupal ]
 tags: [Google Summer of Code, Drupal, PHP]
-image: assets/drupal/2018-06/drupal_logo.png
+image: /assets/drupal/2018-06/drupal_logo.png
 featured: false
 hidden: false
 date: 2018-06-12T09:43:16+05:30

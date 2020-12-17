@@ -4,7 +4,7 @@ title:  "Microsoft's acquisition of GitHub"
 author: ankit
 categories: [ Microsoft ]
 tags: [Microsoft, GitHub]
-image: assets/drupal/2018-06/40890924-4bad5ce0-6732-11e8-9648-192aa71f0830.png
+image: /assets/drupal/2018-06/40890924-4bad5ce0-6732-11e8-9648-192aa71f0830.png
 featured: false
 hidden: false
 date: 2018-06-06T19:22:16+05:30

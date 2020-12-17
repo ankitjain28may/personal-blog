@@ -4,7 +4,7 @@ title:  "GSoC 2018 - Final report"
 author: ankit
 categories: [ GSoC ]
 tags: [Google Summer of Code, Drupal]
-image: assets/drupal/2018-08/af.png
+image: /assets/drupal/2018-08/af.png
 featured: true
 hidden: false
 date: 2018-08-14T12:18:16+05:30

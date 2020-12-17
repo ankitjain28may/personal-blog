@@ -4,7 +4,7 @@ title:  "Best way of Managing Drupal Workflow"
 author: ankit
 categories: [ Drupal ]
 tags: [Drupal, Composer, Git, PHP, Drupal Console]
-image: assets/drupal/2018-04/drupal_composer_git.jpg
+image: /assets/drupal/2018-04/drupal_composer_git.jpg
 featured: true
 hidden: false
 date: 2018-04-22T17:15:16+05:30

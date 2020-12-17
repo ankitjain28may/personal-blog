@@ -4,7 +4,7 @@ title:  "Google Summer of Code 2018 - Blog 1 - preparation drupal"
 author: ankit
 categories: [ GSoC ]
 tags: [Google Summer of Code, Drupal]
-image: assets/drupal/2018-04/gsoc18.png
+image: /assets/drupal/2018-04/gsoc18.png
 featured: false
 hidden: false
 date: 2018-04-04T13:39:16+05:30
