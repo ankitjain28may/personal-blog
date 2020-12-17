@@ -6,6 +6,7 @@ backend:
   branch: jekyll
 
 media_folder: 'assets/uploads'
+publish_mode: editorial_workflow
 
 collections:
   - name: 'blog'
@@ -18,10 +19,10 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string', default: "ankit" }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: 'Author', name: 'author', widget: 'string', default: "ankit" }
       - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
       - { label: "Categories", name: "categories", widget: "list", required: false }
       - { label: "Hidden", name: "hidden", widget: "boolean", required: false, default: false }
