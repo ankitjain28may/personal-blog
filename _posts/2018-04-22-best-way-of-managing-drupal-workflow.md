@@ -18,7 +18,7 @@ We will use one codebase for one Drupal site and use git for version control and
 
 [Composer](https://getcomposer.org/) is a dependency manager for PHP (like npm for Node, pip for Python). Drupal core uses Composer to manage core dependencies like Symfony components and Guzzle. Composer allows us to systematically manage a list of dependencies and their subsidiary dependencies. Composer install these dependencies via a manifest file called as composer.json.
 
-![Composer workflow](/mediumish-theme-jekyll/assets/drupal/inline-images/Firefox_Screenshot_2018-04-22T18-49-10.848Z_0.png)
+![Composer workflow](/assets/drupal/inline-images/Firefox_Screenshot_2018-04-22T18-49-10.848Z_0.png)
 
 This composer.json file contains the dependencies that the project requires which is installed by running -
 
@@ -54,7 +54,7 @@ Composer is one of the fastest ways to install dependencies as it caches the dep
 
 **Directory Structure:**
 
-![Directory structure](/mediumish-theme-jekyll/assets/drupal/inline-images/Firefox_Screenshot_2018-04-22T19-45-24.606Z.png)
+![Directory structure](/assets/drupal/inline-images/Firefox_Screenshot_2018-04-22T19-45-24.606Z.png)
 
 It is different from the Drupal directory structure. You can resemble web directory with the public directory which contains Drupal files. All third party dependencies are outside the web folder.
 

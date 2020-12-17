@@ -3,7 +3,7 @@ name: "Ankit's Blog"
 title: "Ankit's Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
+baseurl: ''
 google_analytics: 'UA-116986205-1'
 resume: "https://drive.google.com/file/d/1TTlGmy89KNEzf2BltE8zdp74-5wAn3ga/view"
 disqus: 'ankitjain28'
