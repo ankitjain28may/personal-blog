@@ -4,6 +4,7 @@ title: "Ankit's Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
+domain_name: 'https://ankitjain28may.netlify.app'
 google_analytics: 'UA-116986205-1'
 resume: "https://drive.google.com/file/d/1TTlGmy89KNEzf2BltE8zdp74-5wAn3ga/view"
 disqus: 'ankitjain28'
@@ -14,13 +15,13 @@ related_post: "enabled"
 # Authors
 authors:
   ankit:
-    name: Ankit
-    display_name: Ankit 
+    name: "Ankit Jain"
+    display_name: "Ankit Jain"
     avatar: 'assets/images/ankit.jpg'
     email: ankitjain28may77@gmail.com
-    web: ""
+    web: "https://ankitjain28may.netlify.app"
     twitter: https://twitter.com/ankitjain28may
-    description: "Web Developer, Open Source Enthusiast and Drupal Contributor"
+    description: "DevOps Engineer @Razorpay | CommunityBridge Mentee @Keptn | @Drupal GSoC Alum | #GitHubCampusExpert Alum | GCI & GSoC'19 Mentor @Drupal | Speaker | Writer"
 
 # Plugins
 plugins:
