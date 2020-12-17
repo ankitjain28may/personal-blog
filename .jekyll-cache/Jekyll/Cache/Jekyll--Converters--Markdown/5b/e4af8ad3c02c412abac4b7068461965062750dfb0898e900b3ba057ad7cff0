@@ -1,0 +1,84 @@
+I"Q<p>Welcome to my Google Summer of Code 2018 project’s final report summary.</p>
+
+<h2 id="affiliates-connect-project"><strong>Affiliates Connect Project</strong></h2>
+
+<p>This module provides an interface to easily integrate with various affiliate APIs or product advertising APIs provided by different e-commerce platforms like Flipkart, Amazon, eBay etc to fetch data easily from their stores and display those to monetize your website by advertising their products.</p>
+
+<p>Project Proposal page - <a href="https://docs.google.com/document/d/16QbxbX8xtdyssCuU2S3dsQIaeNRjmQURWrmHiQ_AtqQ">Link to the proposal</a></p>
+
+<p>Drupal Project Page - <a href="https://www.drupal.org/project/affiliates_connect">affiliates_connect</a></p>
+
+<h2 id="affiliates-connect-demo"><strong>Affiliates Connect Demo</strong></h2>
+
+<p>I have created a demo website where you can test the complete module and its submodules including plugins. Everything is configured so you can test it out. Link to the website - <a href="http://affiliates-demo.ankitjain28.me">affiliates-demo.ankitjain28.me</a></p>
+
+<p>Screencast of the module - <a href="https://youtu.be/E_IVIr_goWw">Video Link</a></p>
+
+<h2 id="affiliates-connect-sub-modules-and-plugins-code"><strong>Affiliates Connect Sub-Modules and Plugins Code</strong></h2>
+
+<ul>
+  <li>
+    <p>Flipkart Plugin - <a href="https://www.drupal.org/project/affiliates_connect_flipkart">affiliates_connect_flipkart</a></p>
+  </li>
+  <li>
+    <p>eBay Plugin - <a href="https://www.drupal.org/project/affiliates_connect_flipkart">affiliates_connect_e</a><a href="https://www.drupal.org/project/affiliates_connect_ebay">bay</a></p>
+  </li>
+  <li>
+    <p>Feeds Advance Crawler Module - <a href="https://www.drupal.org/project/feeds_advance_crawler">feeds_advance_crawler</a></p>
+  </li>
+  <li>
+    <p>Advance Crawler Node - <a href="https://github.com/dbjpanda/advance_crawler">advance_crawler</a></p>
+  </li>
+  <li>
+    <p>Affiliates Connect Entity Browser - <a href="https://www.drupal.org/project/affiliates_connect">affiliates_connect</a> (Comes within the module)</p>
+  </li>
+  <li>
+    <p>Amazon Plugin - <a href="https://www.drupal.org/project/affiliates_connect">affiliates_connect</a> (Comes within the module)</p>
+  </li>
+  <li>
+    <p>Affiliates Connect Demo Repo - <a href="https://github.com/dbjpanda/affiliates_connect_demo/">affiliates_connect_demo</a> (Github repo Branch - dev)</p>
+  </li>
+</ul>
+
+<h2 id="issues-resolved-commits"><strong>Issues Resolved (Commits) </strong></h2>
+
+<ul>
+  <li>
+    <p><a href="https://www.drupal.org/project/affiliates_connect/issues/2975659">#2975659</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2977377">#2977377</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2975642">#2975642</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2977044">#2977044</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2979801">#2979801</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2980450">#2980450</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2979094">#2979094</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2987416">#2987416</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2984462">#2984462</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2980130">#2980130</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2983176">#2983176</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2991976">#2991976</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2984281">#2984281</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2984309">#2984309</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2984980">#2984980</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2982833">#2982833</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2979372">#2979372</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2990538">#2990538</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2985796">#2985796</a>, <a href="https://www.drupal.org/project/affiliates_connect/issues/2992473">#2992473</a>, <a href="https://www.drupal.org/project/affiliates_connect_flipkart/issues/2985182">#2985182</a>, <a href="https://www.drupal.org/project/affiliates_connect_flipkart/issues/2984461">#2984461</a>, <a href="https://www.drupal.org/project/affiliates_connect_ebay/issues/2985626">#2985626</a>, <a href="https://www.drupal.org/project/affiliates_connect_ebay/issues/2988942">#2988942</a>, <a href="https://www.drupal.org/project/affiliates_connect_ebay/issues/2985702">#2985702</a></p>
+  </li>
+  <li>
+    <p>Pull Request of Advance Crawler Nodejs - <a href="https://github.com/dbjpanda/advance_crawler/pulls?q=is%3Apr+is%3Aclosed+author%3Aankitjain28may">Link</a></p>
+  </li>
+  <li>
+    <p>Pull Request of Feeds Advance Crawler - <a href="https://github.com/dbjpanda/feeds_advance_crawler/pulls?q=is%3Apr+is%3Aclosed">Link</a></p>
+  </li>
+</ul>
+
+<h2 id="some-important-links"><strong>Some Important Links</strong></h2>
+
+<ul>
+  <li>
+    <p>Trello Board Link - <a href="https://trello.com/b/TslaoqSP/ankit-jain-gsoc18">GSoC’18</a></p>
+  </li>
+  <li>
+    <p>Weekly Blogs Summary - <a href="http://ankitjain28.me/gsoc/2">Blogs</a></p>
+  </li>
+  <li>
+    <p>Youtube Playlist related to Module explanation - <a href="https://www.youtube.com/playlist?list=PLmDmwPxkQGbeRQLyz0CLmzcBCOaZLI1in">Affiliates Connect</a></p>
+  </li>
+</ul>
+
+<h2 id="remaining-tasks"><strong>Remaining Tasks</strong></h2>
+
+<ul>
+  <li>
+    <p>Improve the performance of the module.</p>
+  </li>
+  <li>
+    <p>Showing the same products from other vendors using Machine Learning.</p>
+  </li>
+  <li>
+    <p>Compress JSON data returned by static or dynamic routes.</p>
+  </li>
+</ul>
+:ET

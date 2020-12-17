@@ -1,0 +1,35 @@
+I"S<p>My journey to open source and its community started with my college life. I was introduced to open source through Nibble Computer Society, an official Computer Science Society of our college. Later, I joined the society as a Web Developer. Here in this blog, I will share my experience how i started with open source and preparation of GSoC’18.</p>
+
+<p>My passion for programming and development helped me in exploring open source community. I preferred some online courses which helped me in starting with Git and Github over others. Once i got familiar with version control, I pushed all my code to <a href="http://github.com/ankitjain28may">Github</a> and it helped me in development as well as collaboration with other developers. </p>
+
+<h4 id="google-summer-ofcode"><strong>Google Summer of Code</strong></h4>
+
+<p><a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> is a global program focused on bringing more student developers into open source software development.<br />
+Students work with an open source organization on a 3 month programming project during their break from school.</p>
+
+<p><a href="http://deshraj.xyz/">Deshraj Yadav</a>, One of the member of our Society and GSoC’15 student, introduced us with the Google Summer of Code and told about its perks. I started preparing for GSoC’16 but due to lack of experience and skills, I was not selected for GSoC’16. </p>
+
+<h4 id="drupal">Drupal</h4>
+
+<p>When Google announced the organizations selected for the GSoC’18, I searched for two organizations, One is <strong>Phpmyadmin</strong> and other is <strong>Drupal</strong>. I was contributing to Phpmyadmin from some time.</p>
+
+<p>While reading project ideas of Drupal, I found <a href="https://groups.drupal.org/node/518074">project 7</a> interesting because it involves the web scrapping and i am quite familiar with web scraping. The project idea is to create a module which let bloggers and advertisers to easily fetch product’s data through affiliate APIs provided by different e-commerce platforms or through scraping and monetize websites by advertising their products.</p>
+
+<p>After selecting the project, I contacted the mentors assigned for that project. I got response from <a href="https://www.drupal.org/u/dbjpanda">Dibyajyoti Panda,</a> one of my mentor, within an hour which excited me for this project. I did these things — </p>
+
+<ol>
+  <li>I followed the <a href="https://www.drupal.org/node/2415225">Drupal’s Getting Started guide for GSoC students</a> and joined <a href="https://groups.drupal.org/google-summer-code">Drupal GSoC group</a>.</li>
+  <li>I joined the <a href="irc://irc.freenode.net/drupal-google">Drupal-Google IRC</a> channel in order to connect with Drupal Community and other students.</li>
+  <li>I completed the <a href="http://drupalladder.org/">Drupal Ladder</a> which helped me getting started with Drupal.</li>
+</ol>
+
+<p>My mentors guided and helped me a lot in learning Drupal because it’s really important to get familiar with Drupal before writing proposal for the project idea. I created a Trello Board and added my mentors to let them know about my progress and get feedbacks/reviews on tasks assigned to me. I contributed to Drupal Core by writing some patches and earned 19+ credits before proposal submission in one month. </p>
+
+<h4 id="the-proposaldeadline">The Proposal Deadline </h4>
+
+<p>I started working on my proposal writing after completing my tasks assigned by my mentors. Proposal describes what you hope to accomplish, why those objectives are important, and how you intend to achieve them. It also tells about the student’s past experiences and works. It is important to make a good proposal which let readers know about my idea and implementation procedure. So, I added some flowcharts/workflow diagrams and mockups. I completed my proposal 2 days before the deadline (March 27, 2018–21:30 IST) and asked for my mentor’s advice and feedback. I submitted my final proposal few hours before the deadline.</p>
+
+<h4 id="application-reviewperiod">Application Review Period</h4>
+
+<p>I am revising PHP OOPs concept and understanding Symfony Components, Drupal APIs and research on how the scrapping can be optimized to scrape thousands of product’s data so that if I am selected for the project, i can give more time in coding and development. This was my experience in project submission period.</p>
+:ET

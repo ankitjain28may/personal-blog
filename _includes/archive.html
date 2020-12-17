@@ -1,0 +1,23 @@
+
+<!-- Begin Archive Posts
+================================================== -->
+    
+<section class="archive-posts">
+    <div class="section-title">
+        <h2><span>Archive Posts</span></h2>
+    </div>
+
+    <div class="archive-lists">
+        {%- assign posts = site.posts -%}
+
+        <!-- Grouping  by months -->
+        {%- assign groupedByMonths = posts | group_by_exp:"post","post.date | date:'%B %Y' " | reverse -%}
+      
+        {%- for item in groupedByMonths -%}
+        <ul>
+            <li> <a href="{{ site.baseurl }}/archive#{{ item.items[0].date | date: '%Y-%m' }}">{{ item.name }} </a> ({{ item.size }})</li> 
+        </ul>
+        {% endfor %}
+    </div>
+
+</section>

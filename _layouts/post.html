@@ -21,6 +21,9 @@ post_class: post-template
         <div class="col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
+                <!-- Post Title -->
+                <h1 class="posttitle">{{ page.title }}</h1>
+
                 <!-- Author Box -->
                 {% if page.author %}
                 <div class="row post-top-meta">
@@ -32,14 +35,20 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
                         <span class="author-description">{{ author.description }}</span>
+                         <!-- Post Date -->
+                        <p>
+                            <small>
+                                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%a, %-d %B %Y - %R" }}">{{ page.date | date: "%a, %-d %B %Y - %R" }}</time></span>           
+                                {% if page.last_modified_at %}
+                                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%a, %-d %B %Y - %R" }}</time>)
+                                {% endif %}
+                            </small>
+                        </p>
                     </div>
                 </div>
-                {% endif %}
-
-                <!-- Post Title -->
-                <h1 class="posttitle">{{ page.title }}</h1>
+                {% endif %}   
 
             </div>
 
@@ -82,21 +91,26 @@ post_class: post-template
             <div class="rating mb-4 d-flex align-items-center">
                 <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
             </div>
-            {% endif %}
+            {% endif %}           
 
-            <!-- Post Date -->
-            <p>
-            <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time></span>           
-                {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%b %-d, %Y" }}</time>)
-                {% endif %}
-                </small>
-            </p>
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    {% assign sortedTags = page.tags | sort %}
+                    {% for tag in sortedTags %}
+                    <li>
+                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- End Tags -->
 
             <!-- Post Categories -->
             <div class="after-post-cats">
+                <span class="categories-prefix"> Categories: </span>
                 <ul class="tags mb-4">
+                   
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
@@ -106,19 +120,6 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Categories -->
-
-            <!-- Post Tags -->
-            <div class="after-post-tags">
-                <ul class="tags">
-                    {% assign sortedTags = page.tags | sort %}
-                    {% for tag in sortedTags %}
-                    <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            <!-- End Tags -->
 
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
@@ -130,7 +131,7 @@ post_class: post-template
             {% endif %}
             <div class="clearfix"></div>
             </div>
-            <!-- End Categories -->
+            <!-- End Prev/Next -->
 
         </div>
         <!-- End Post -->

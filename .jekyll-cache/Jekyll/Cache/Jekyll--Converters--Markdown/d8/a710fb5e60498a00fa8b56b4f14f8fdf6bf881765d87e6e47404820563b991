@@ -1,0 +1,42 @@
+I"<p>Welcome to my Google Summer of Code 2018 week 11 summary update of Project <a href="https://drupal.org/project/affiliates_connect"><strong>Affiliates Connect</strong></a>. Learn more about my previous update in <a href="http://ankitjain28.me/gsoc-2018-week-9">Week 1</a><a href="http://blogenic.com/gsoc-2018-week-10">0</a> and in my archive. <a href="https://summerofcode.withgoogle.com/">GSoC</a> (Google Summer of Code) is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a 3-month programming project during their break from school.</p>
+
+<h3 id="progress"><strong>Progress</strong></h3>
+
+<p>Some of the tasks accomplished in this week are -</p>
+
+<ul>
+  <li>
+    <p>As products are stored in the custom content entity ‘affiliates_product’. Drupal views module allows administrators and site designers to create, manage, and display lists of content. I used views to show the products data along with sorting/filtering and it works perfectly, There is no need to configure anything programmatically. We can also display the products in Blocks. Users can design the views as per their choice.</p>
+  </li>
+  <li>
+    <p>Searching feature to search the products is one of the important functionality that site admin requires. Drupal Search API module provides the powerful search functionality through indexing of products in the database. Search API module uses Apache Solr to improve performance. I used Search API database to implement the search technique. It’s working good too. Link of a demo video - <a href="https://youtu.be/qUw9uORjaWw">Video</a></p>
+  </li>
+  <li>
+    <p>Drupal contrib module <a href="https://www.drupal.org/project/entity_browser">entity_browser</a> is a great utility to provide a generic entity browser/picker/selector. Our module comes with the ‘<em>Affiliates Product Entity Browser</em>’ which has two main features-</p>
+  </li>
+</ul>
+
+<p>1. It lets users select/pick the products through an entity_browser view functionality. Entity Browser uses View to display the list of entity data in the form of a table and expose search, sort, and other filters.</p>
+
+<p>2. In the above point, we cover the products that the user has already imported to the database. Now the questions arise, what about the products that are not imported in the site database? Either the user has to first import the products before creating the node/content or anything. Ahh, that’s bad. So, Here we have a solution for the above problem, Along with the selection of products from the database, Our module comes with the Live Search feature, It lets the user search the products directly from the external vendors using Native API. In this way, A user can select/pick the appropriate product without going anywhere and can also change the data of the selected product. Link to the demo video - <a href="https://www.youtube.com/watch?v=-vEl5iO3foo">Video</a></p>
+
+<p>-  Live Search feature is also provided separately to search the products from the vendors and import them in the site database. Link to the patch - <a href="https://www.drupal.org/project/affiliates_connect/issues/2987416">#2987416</a></p>
+
+<h3 id="week-11---goals"><strong>Week 11 - Goals</strong></h3>
+
+<ul>
+  <li>
+    <p>I am working on the product comparison feature. Product comparison is the side by side comparison of products data.</p>
+  </li>
+  <li>
+    <p>I will work on improving the performance of the Node Scrapper. I have exposed the API of the Nodes Scrapper which is called by Feeds module sequentially which resultant in low performance. </p>
+  </li>
+  <li>
+    <p>I will also work on cloaking feature. Cloaking feature is almost complete, but to make sure that any crawler or bots won’t able to detect the redirected URL, It is necessary to identify whether the request is made through valid user or any bots.</p>
+  </li>
+</ul>
+
+<h3 id="conclusion"><strong>Conclusion</strong></h3>
+
+<p>Improving the performance of the Node Scrapper is really difficult as Feeds module workflow is sequential, If I make the workflow somehow parallel can really help to improve the performance issue. It would be great if community members can help me out by giving better suggestions for it. I am looking for the solutions of above-stated problems.</p>
+:ET

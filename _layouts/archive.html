@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Archive
+permalink: "/archive.html"
 ---
-
-<!-- Begin List Posts
-================================================== -->
-<section class="recent-posts">
-<div class="section-title">
-    <h2>Archive of posts with <span>{{ page.type }} '{{ page.title }}'</span></h2>
-</div>
+{%- assign posts = site.posts -%}
+<!-- Grouping  by months -->
+{%- assign groupedByMonths = posts | group_by_exp:"post","post.date | date:'%B %Y' " | reverse -%}
 <div class="row listrecent">
-
-{% for post in page.posts %}
-
-    {% include postbox.html %}
-
-{% endfor %}
-
+{% for months in groupedByMonths %}
+<div class="section-title col-md-12 mt-4">
+<h2 id="{{ months.items[0].date | date: '%Y-%m' }}">Archive: <span class="text-capitalize">{{ months.name }}</span></h2>
 </div>
-</section>
+{%- assign posts = months.items -%}
+{% for post in posts %}
+{% if post.title != null %}
+{% include postbox.html %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>

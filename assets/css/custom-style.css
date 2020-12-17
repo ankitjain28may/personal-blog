@@ -1,0 +1,47 @@
+.author-description {
+    display: block !important
+}
+
+.article-post img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.featured-image.img-fluid {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.article-post pre {
+    background: #F2F2F2;
+    padding: 20px;
+    border: 0;
+    color: #333;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.article-post {
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+}
+
+.archive-lists ul {
+    list-style: none;
+    padding: 4px;
+    margin: 0;
+}
+
+div.archive-lists {
+    padding: 0;
+}
+
+.categories-prefix {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.categories-prefix + ul {
+    display: inline-block;
+}

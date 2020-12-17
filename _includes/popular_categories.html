@@ -1,0 +1,19 @@
+
+<!-- Begin popular categories
+================================================== -->
+    
+<section class="popular-categories-posts">
+    <div class="section-title">
+        <h2><span>Popular Categories</span></h2>
+    </div>
+
+    <div class="archive-lists">
+        {% for category in site.categories %}
+        <ul>
+            <li> <a href="{{ site.baseurl }}/categories#{{ category[0] | replace: " ","-" }}">{{ category[0] | capitalize }}</a> ({{ category[1].size }})</li> 
+        </ul>
+        {% endfor %}
+    </div>
+
+</section>
+

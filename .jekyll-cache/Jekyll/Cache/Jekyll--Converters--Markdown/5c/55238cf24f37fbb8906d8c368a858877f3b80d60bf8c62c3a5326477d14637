@@ -1,0 +1,75 @@
+I"<<p>Week 4 of the GSoC coding period is completed successfully and with its completion, first evaluation period is also started. <a href="https://summerofcode.withgoogle.com/">GSoC</a> (Google Summer of Code) is a global program focused on bringing more student developers into open source software development. Students work with an open source organization on a 3-month programming project during their break from school.</p>
+
+<h3 id="project-abstract"><strong>Project Abstract</strong></h3>
+
+<p>I am working on “<strong>Developing a “ Product Advertising API ” module for Drupal 8</strong>” - <a href="https://groups.drupal.org/node/518074">#7</a>. The “Product Advertising API” which is renamed to “<a href="https://www.drupal.org/project/affiliates_connect">Affiliates Connect</a>” module provides an interface to easily integrate with affiliate APIs or product advertising APIs provided by different e-commerce platforms like Flipkart, Amazon, eBay etc to fetch data easily from their database and import them into Drupal to monetize your website by advertising their products. If the e-commerce platforms don’t provide affiliate APIs, we will scrape the data from such platforms.</p>
+
+<h3 id="progress"><strong>Progress</strong></h3>
+
+<p>Some of the tasks accomplished before the first evaluation period, This post comprises of tasks completed from first week of GSoC to first evaluation period.</p>
+
+<ul>
+  <li>The basic skeleton of the module is completed and reviewed by <a href="https://www.drupal.org/u/borisson_">borisson_</a> , <a href="https://www.drupal.org/u/dbjpanda">dbjpanda</a> , <a href="https://www.drupal.org/u/gvso">gvso</a>, <a href="https://www.drupal.org/u/thedrupalkid">thedrupalkid</a> and other mentors. Link to the issue - <a href="https://www.drupal.org/project/affiliates_connect/issues/2975659">#2975659</a></li>
+</ul>
+
+<p><img src="/mediumish-theme-jekyll/assets/drupal/inline-images/Firefox_Screenshot_2018-06-12T12-10-00.696Z.png" alt="Overview Page" /></p>
+
+<ul>
+  <li>
+    <p>With the skeleton issue, The overview page which will show the different plugins enabled by the user and allow the users to  configure plugins, is also completed.</p>
+  </li>
+  <li>
+    <p>Content Entity for storing product’s data from various vendors is also completed and reviewed by <a href="https://www.drupal.org/u/borisson_">borisson_</a> , <a href="https://www.drupal.org/u/dbjpanda">dbjpanda</a> , and other mentors. It is still under discussion whether to select nodes or content entities to store the data. I am thinking to use content entity for storing the product’s data and why I am using it, is also explained under this blog post - <a href="http://ankitjain28.me/where-store-products-data">Where to store product’s data?</a>  Link to the issue - <a href="https://www.drupal.org/project/affiliates_connect/issues/2975642">#2975642</a></p>
+  </li>
+</ul>
+
+<p><img src="/mediumish-theme-jekyll/assets/drupal/inline-images/Screenshot-2018-6-12%20Issues%20for%20Affiliates%20Connect%20Drupal%20org.png" alt="Content Entity" /></p>
+
+<ul>
+  <li>Functional Tests for verification of routes defined in the project as suggested by <a href="https://www.drupal.org/u/borisson_">borisson_</a> is also completed and reviewed. It also included the functional tests for checking whether product’s data is submitted correctly by affiliates_product add form or not. Tests for deleting &amp; editing the products are also completed under this issue. Link to the issue - <a href="https://www.drupal.org/project/affiliates_connect/issues/2977377">#2977377</a></li>
+</ul>
+
+<p><img src="/mediumish-theme-jekyll/assets/drupal/inline-images/Screenshot-2018-6-12%20Issues%20for%20Affiliates%20Connect%20Drupal%20org%281%29.png" alt="Tests" /></p>
+
+<ul>
+  <li>
+    <p>Native APIs provided by e-commerce sites only allow some percent of product’s data to be accessed. I am also working on Flipkart module in this <a href="https://github.com/ankitjain28may/scraping-using-node/tree/master/Flipkart/affiliates_connect_flipkart">repo</a> from my previous studies in this <a href="https://github.com/ankitjain28may/flipkartAffiliate">repo</a>. I will update my further work in the repo. We can’t fetch all the product’s data from any e-commerce sites so we need to write the scraper which does this task for us. For scraping, I am using Node.js to create scraper APIs.</p>
+  </li>
+  <li>
+    <p>For scraping millions of products from sites, we need to design the scraper that can give us high performance in terms of data and time, So i tested various nodejs libraries like <a href="https://github.com/request/request">request</a>, <a href="https://github.com/assaf/zombie">zombie</a>, <a href="https://github.com/GoogleChrome/puppeteer">puppeteer</a>, <a href="https://github.com/Medium/phantomjs">phantom</a>, and <a href="https://github.com/segmentio/nightmare">nightmare.</a> I found that zombie is worst out of all, in case of websites which contain heavy javascript. Puppeteer and nightmare are taking equal time as phantomjs but less complex, fast and flexible to use. Request is best out of all but it is only for static websites unlike others which can also be used for websites which uses javascript to add content dynamically. Here are the speed benchmarks for the same.</p>
+  </li>
+</ul>
+
+<p><img src="/mediumish-theme-jekyll/assets/drupal/inline-images/Firefox_Screenshot_2018-06-12T12-34-03.134Z.png" alt="Benchmarks" /></p>
+
+<p>Link to the repo - <a href="https://github.com/ankitjain28may/scraping-using-node/tree/master/scrapers-benchmarks">Scraping using node/scrapers-benchmarks</a></p>
+
+<ul>
+  <li>
+    <p>As discussed, We are using heterogeneous scraper so that we can use request/x-ray library for static websites and nightmare for dynamic websites.</p>
+  </li>
+  <li>
+    <p>Scraping Amazon websites using Nightmare is almost completed. Link to the repo - <a href="https://github.com/ankitjain28may/scraping-using-node/tree/master/Amazon">Scraping using node/Amazon</a></p>
+  </li>
+</ul>
+
+<h3 id="week-5---goals"><strong>Week 5 - Goals</strong></h3>
+
+<ul>
+  <li>
+    <p>I have broken down the scraper API part into smaller issues, so it would be easy to implement and review. In this way, we can progress faster. I have added one issue to the issue queue. Link to the issue - <a href="https://www.drupal.org/project/affiliates_connect/issues/2979094">#2979094</a></p>
+  </li>
+  <li>
+    <p>As discussed with mentors, We want<span> <span dir="auto">something that can ease out the efforts at the end of the client side, So I am thinking to use <a href="http://drupal.org/project/feeds">Feeds</a> module and utilize its feed import functionality</span></span>. <span><span dir="auto">Feeds has config entity “<strong>feeds type</strong>” that allows user to use the type of fetcher, parser, processor and maps the fields of the selected proceessor. Once that feeds type is created, We can use it for multiple urls/categories (</span></span>another entity defined as content entity for saving urls linked with feed types).</p>
+  </li>
+  <li>
+    <p>Feeds provides HTTPFetcher that use Guzzle for collecting response from the url entered by the user. As a part of this module, I am developing two Fetcher plugin named as StaticFetcher and DynamicFetcher. StaticFetcher is used to collect the response from static websites that will use Request/x-ray lib of Nodejs and DynamicFetcher for collecting the response from the dynamic websites (websites that use javascript to load the DOM) that will use Nightmare lib of Nodejs</p>
+  </li>
+  <li>
+    <p>Feeds provides  parser for parsing and mapping the data collected from the fetcher part. So I am designing the separate parser that will use cheerio lib of Nodejs for parsing the data.</p>
+  </li>
+  <li>
+    <p>In this week, I am going to create the fetcher part. In this way, we can provide a user a generic scraper that can be configured as per the user requirement.</p>
+  </li>
+</ul>
+:ET
