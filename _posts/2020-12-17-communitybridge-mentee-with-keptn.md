@@ -21,6 +21,10 @@ Hey folks, I am Ankit Jain, and currently working as an Infrastructure (DevOps) 
 
 # What is CommunityBridge Program?
 
-CommunityBridge program is the Linux Foundation's initiative to indulge more people in the open-source community similar to Google Summer of Code and Outreachy. Each selected Mentee works on an open-source project for a term of 3 months approx under the assigned Mentors who guides and help them with the project completion.
+CommunityBridge program (which is now known as LFX Mentorship) is the Linux Foundation's initiative to indulge more people in the open-source community similar to Google Summer of Code and Outreachy. Each selected Mentee works on an open-source project for a term of 3 months approx under the assigned Mentors who guide and help them with the project completion.
 
-I have been following the CNCF community and hence got to know about this program and thinking to apply for this program from last one year but unfortunately either I miss the deadline or stuck in something else. I have been constantly trying to make some good open-source contribution to CNCF projects. It's kinda challenging to find proper time for the open-source contribution along with a full-time job which is equally amazing and exciting.
+I have been following the CNCF community and hence got to know about this program and thinking to apply for this program from last one year but unfortunately either I miss the deadline or stuck in something else. I have been constantly trying to make some good open-source contribution to CNCF projects. It's kinda challenging to find proper time for the open-source contribution along with a full-time job which is equally amazing and exciting. 
+
+I was constantly following the CNCF blog and tracking the status for the Fall 2020 CommunityBridge Program. I choose **"[Keptn CLI to support multiple contexts like KUBECONFIG](https://github.com/keptn/keptn/issues/2300)"** project idea from Keptn organization out of [22 projects ideas](https://github.com/cncf/mentoring/blob/master/communitybridge/2020/q3-q4/project_ideas.md) from 12 Graduated, Incubating and Sandbox organization.
+
+# Why Keptn?
