@@ -46,3 +46,9 @@ Finally, the results were out and I was officially working as a CommunityBridge 
 ![](/assets/uploads/screenshot-2020-12-21-at-12.15.48-am.png)
 
 We had an introductory meeting where we decided multiple things since this program was new for both of us like weekly meeting with mentors, a separate slack channel for mentees to discuss, issues to track the progress and others. Mentors also asked me to write the doc on the "Project Timeline & Implementation Plan" which helped me to align my tasks in an efficient way and to manage my time accordingly.
+
+After months of work, multiple pull requests, weekly meetings, discussions and mentor's reviews & feedback, I completed my project successfully a week before the final deadline. I gave the complete demo of my project to my mentors and also presented my work in the Keptn Community Meeting.
+
+![https://twitter.com/keptnProject/status/1334086557352022017](/assets/uploads/screenshot-2020-12-21-at-12.47.19-am.png "https://twitter.com/keptnProject/status/1334086557352022017")
+
+I would like to thank my mentors [Jürgen Etzlstorfer](https://github.com/jetzlstorfer), [Johannes Bräuer](https://github.com/johannes-b), [Florian Bacher](https://github.com/bacherfl) and [Christian Kreuzberger](https://github.com/christian-kreuzberger-dtx). I really appreciate you all. It's really a great learning experience for me ❤️
