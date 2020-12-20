@@ -39,6 +39,10 @@ Keptn has beautiful [documentation](https://keptn.sh/docs/) 😍, a great set of
 
 Keptn has the weekly developer meeting and [Jürgen Etzlstorfer](https://github.com/jetzlstorfer) invited me and asked me to present my work in their next community meeting. I was excited and a little nervous but all went good. I have already submitted my application for the program and eagerly waiting for the results.
 
+# Working as a CommunityBridge Mentee
+
 Finally, the results were out and I was officially working as a CommunityBridge Mentee for Keptn organization.
 
 ![](/assets/uploads/screenshot-2020-12-21-at-12.15.48-am.png)
+
+We had an introductory meeting where we decided multiple things since this program was new for both of us like weekly meeting with mentors, a separate slack channel for mentees to discuss, issues to track the progress and others. Mentors also asked me to write the doc on the "Project Timeline & Implementation Plan" which helped me to align my tasks in an efficient way and to manage my time accordingly.
