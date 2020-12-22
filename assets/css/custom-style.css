@@ -6,6 +6,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    max-width: 80% !important;
 }
 
 .featured-image.img-fluid {
@@ -20,11 +21,11 @@
     border: 0;
     color: #333;
     font-style: normal;
-    font-size: 1rem;
 }
 
 .article-post {
     font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    font-size: 18px !important;
 }
 
 .archive-lists ul {
