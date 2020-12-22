@@ -25,13 +25,13 @@ CommunityBridge program (which is now known as LFX Mentorship program) is the Li
 
 I have been following the CNCF community and hence got to know about this program and thinking to apply for this program from last one year but unfortunately either I miss the deadline or stuck in something else. I have been constantly trying to make some good open-source contribution to CNCF projects. It's kinda challenging to find proper time for the open-source contribution along with a full-time job which is equally amazing and exciting. 
 
-I was constantly following the CNCF blog and tracking the status for the Fall 2020 CommunityBridge Program. I choose **"[Keptn CLI to support multiple contexts like KUBECONFIG](https://github.com/keptn/keptn/issues/2300)"** project idea from Keptn organization out of [22 projects ideas](https://github.com/cncf/mentoring/blob/master/communitybridge/2020/q3-q4/project_ideas.md) from 12 Graduated, Incubating and Sandbox organization.
+I was constantly following the CNCF blog and tracking the status for the Fall 2020 CommunityBridge Program. Out of 22 projects ideas from 12 graduated, incubating, and sandbox projects I submitted my application for the CNCF sandbox project Keptn, as their project idea was most appealing to me. Keptn proposed two project ideas and one of them directly caught my eye.
 
 # Why Keptn?
 
-[Keptn](https://keptn.sh/) is an event-based control plane for continuous delivery and automated operations for cloud-native applications. Keptn is the CNCF sandbox project and is selected for the first time under the LFX Mentorship program.
+[Keptn](https://keptn.sh/) is a data-driven control-plane for continuous delivery and automated operations for cloud-native applications. Keptn is a CNCF sandbox project and has been selected for the first time under the LFX Mentorship program.
 
-I liked the project idea i.e **"[Keptn CLI to support multiple contexts like KUBECONFIG](https://github.com/keptn/keptn/issues/2300)"** since it fits completely with my skill set. Also, I am fond of CI/CD tools and loves to explore them. The other reason for me choosing this project is because I have worked/developed a tool called **"[Ingress Concierge](https://github.com/razorpay/concierge/tree/ingress-concierge/)"** which is used to create leases for incoming connections to Kubernetes Ingress Objects. Under this project, I have added the feature to use multi-contexts so I am kinda confident with Keptn's project idea and how to implement the project.
+I liked the project idea i.e **"[Keptn CLI to support multiple contexts like KUBECONFIG](https://github.com/keptn/keptn/issues/2300)"** since it fits completely with my skill set. Also, I am fond of CI/CD tools and love to explore them. The other reason for me choosing this project is because I have worked/developed a tool called **"[Ingress Concierge](https://github.com/razorpay/concierge/tree/ingress-concierge/)"** which is used to create leases for incoming connections to Kubernetes Ingress Objects. Under this project, I have added the feature to use multi-contexts so I am kinda confident with Keptn's project idea and how to implement the project.
 
 # How did I start with Keptn?
 
@@ -45,10 +45,12 @@ Finally, the results were out and I was officially working as a CommunityBridge 
 
 ![](/assets/uploads/screenshot-2020-12-21-at-12.15.48-am.png)
 
-We had an introductory meeting where we decided multiple things since this program was new for both of us like weekly meeting with mentors, a separate slack channel for mentees to discuss, issues to track the progress and others. Mentors also asked me to write the doc on the "Project Timeline & Implementation Plan" which helped me to align my tasks in an efficient way and to manage my time accordingly.
+We had an introductory meeting with all the mentors where we decided on the structure of the program and collaboration between mentors and mentees since this program was new for both of us like weekly meeting with mentors, a separate slack channel for mentees to discuss, issues to track the progress and others. The mentors also asked me to write the doc on the "Project Timeline & Implementation Plan" which helped me to align my tasks in an efficient way and to manage my time accordingly.
 
 After months of work, multiple pull requests, weekly meetings, discussions and mentor's reviews & feedback, I completed my project successfully a week before the final deadline. I gave the complete demo of my project to my mentors and also presented my work in the Keptn Community Meeting.
 
 ![https://twitter.com/keptnProject/status/1334086557352022017](/assets/uploads/screenshot-2020-12-21-at-12.47.19-am.png "https://twitter.com/keptnProject/status/1334086557352022017")
 
-I would like to thank my mentors [Jürgen Etzlstorfer](https://github.com/jetzlstorfer), [Johannes Bräuer](https://github.com/johannes-b), [Florian Bacher](https://github.com/bacherfl) and [Christian Kreuzberger](https://github.com/christian-kreuzberger-dtx). I really appreciate you all. It's really a great learning experience for me ❤️
+I would like to thank my mentors [Jürgen Etzlstorfer](https://github.com/jetzlstorfer), [Johannes Bräuer](https://github.com/johannes-b), [Florian Bacher](https://github.com/bacherfl) and [Christian Kreuzberger](https://github.com/christian-kreuzberger-dtx). I really appreciate you all. It's really a great learning experience for me ❤️. I would definitely recommend participating in a mentorship program and recommend Keptn to new mentees.
+
+Feel free to comment and ask me anything. You can follow me on [Twitter:@ankitjain28may](https://twitter.com/ankitjain28may) and [Medium](https://medium.com/@ankitjain28may). Thanks for reading!
