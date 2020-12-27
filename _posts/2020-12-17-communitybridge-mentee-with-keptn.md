@@ -15,7 +15,7 @@ categories:
 hidden: false
 featured: true
 ---
-Hey folks, I am Ankit Jain, and currently working as an Infrastructure (DevOps) Engineer at Razorpay. I have successfully graduated from the Keptn mentorship program. In this blog post, I will be sharing my experience of contributing to [Keptn](https://keptn.sh/), CNCF sandbox project as a Linux Foundation's [CommunityBridge](https://communitybridge.org/) Program Mentee.
+Hey folks, I am Ankit Jain, and currently working as an Infrastructure (DevOps) Engineer at Razorpay. I have successfully graduated from the CNCF communitybridge mentorship program. In this blog post, I will be sharing my experience of contributing to [Keptn](https://keptn.sh/), CNCF sandbox project as a Linux Foundation's [CommunityBridge](https://communitybridge.org/) Program Mentee.
 
 ![https://twitter.com/ankitjain28may/status/1339136773063024640](/assets/uploads/screenshot-2020-12-17-at-9.17.28-pm.png)
 
@@ -47,7 +47,7 @@ Finally, the results were out and I was officially working as a CommunityBridge 
 
 We had an introductory meeting with all the mentors where we decided on the structure of the program and collaboration between mentors and mentees since this program was new for both of us like weekly meeting with mentors, a separate slack channel for mentees to discuss, issues to track the progress and others. The mentors also asked me to write the doc on the "Project Timeline & Implementation Plan" which helped me to align my tasks in an efficient way and to manage my time accordingly.
 
-After months of work, multiple pull requests, weekly meetings, discussions and mentor's reviews & feedback, I completed my project successfully a week before the final deadline. I gave the complete demo of my project to my mentors and also presented my work in the Keptn Community Meeting.
+After months of work, multiple pull requests, weekly meetings, discussions and mentor's reviews & feedback, I completed my project successfully a week before the final deadline. I gave the complete demo of my project to my mentors and also presented my work in the Keptn Community Meeting. You can find the demo [here](https://www.youtube.com/watch?t=819&v=--NY0UakM1s&feature=youtu.be&ab_channel=keptn).
 
 ![https://twitter.com/keptnProject/status/1334086557352022017](/assets/uploads/screenshot-2020-12-21-at-12.47.19-am.png "https://twitter.com/keptnProject/status/1334086557352022017")
 
