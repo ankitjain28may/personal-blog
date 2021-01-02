@@ -1,0 +1,51 @@
+# _data/picture.yml
+
+media_queries:
+  mobile: 'max-width: 600px'
+
+presets:
+  feature-default:
+    widths: [600, 900, 1200]
+    formats: [webp, original]
+    sizes:
+      mobile: 80vw
+    size: 500px
+
+    attributes:
+      picture: 'class="wrapthumbnail"'
+      img: 'class="featured-box-img-cover"'
+
+  feature-lazy:
+    markup: data_auto
+    formats: [webp, original]
+    widths: [600, 900, 1200]
+    sizes:
+      mobile: 80vw
+    size: 500px
+    noscript: true # add a fallback image inside a <noscript> tag.
+    attributes: 
+      picture: 'class="wrapthumbnail"'
+      img: 'class="featured-box-img-cover lazyimg"'
+  
+  post-default:
+    widths: [600, 900, 1200]
+    formats: [webp, original]
+    sizes:
+      mobile: 80vw
+    size: 500px
+
+    attributes:
+      picture: 'class="wrapthumbnail"'
+      img: 'class="img-fluid"'
+
+  post-lazy:
+    markup: data_auto
+    formats: [webp, original]
+    widths: [600, 900, 1200]
+    sizes:
+      mobile: 80vw
+    size: 500px
+    noscript: true # add a fallback image inside a <noscript> tag.
+    attributes: 
+      picture: 'class="wrapthumbnail"'
+      img: 'class="img-fluid lazyimg"'

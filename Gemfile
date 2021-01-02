@@ -17,4 +17,8 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'kramdown'
     gem 'rouge'
+    gem 'jekyll-minifier'
+    gem 'webrick'
+    gem 'jekyll-gzip'
+    gem 'jekyll_picture_tag'
 end
