@@ -48,6 +48,7 @@ paginate_path: /page:num/
 # Other
 markdown: kramdown
 
+# picture plugin
 picture:
   ignore_missing_images: true
   fast_build: true
