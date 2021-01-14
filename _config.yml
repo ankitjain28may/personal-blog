@@ -30,6 +30,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-minifier
+  - jekyll-gzip
     
 # Archives
 jekyll-archives:
@@ -46,6 +48,13 @@ paginate_path: /page:num/
 # Other
 markdown: kramdown
 
+# picture plugin
+picture:
+  ignore_missing_images: true
+  fast_build: true
+  suppress_warnings: true
+
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -56,6 +65,14 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+sass:
+  style: compressed
+
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
