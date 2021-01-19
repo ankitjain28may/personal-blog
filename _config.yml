@@ -4,7 +4,7 @@ title: "Ankit's Blog"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
-domain_name: 'https://ankitjain28may.netlify.app'
+domain_name: 'https://ankitjain28.me'
 google_analytics: 'UA-116986205-1'
 resume: "https://drive.google.com/file/d/1TTlGmy89KNEzf2BltE8zdp74-5wAn3ga/view"
 disqus: 'ankitjain28'
@@ -19,7 +19,7 @@ authors:
     display_name: "Ankit Jain"
     avatar: 'assets/images/ankit.jpg'
     email: ankitjain28may77@gmail.com
-    web: "https://ankitjain28may.netlify.app"
+    web: "https://ankitjain28.me"
     twitter: https://twitter.com/ankitjain28may
     description: "DevOps Engineer @Razorpay | CommunityBridge Mentee @Keptn | @Drupal GSoC Alum | #GitHubCampusExpert Alum | GCI & GSoC'19 Mentor @Drupal | Speaker | Writer"
 
@@ -65,7 +65,7 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "enabled"
+lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
 
