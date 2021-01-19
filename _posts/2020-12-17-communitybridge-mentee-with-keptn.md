@@ -2,7 +2,7 @@
 layout: post
 title: CommunityBridge Mentee with Keptn
 author: ankit
-date: 2020-12-17T15:16:26.757Z
+date: 2021-01-19T08:32:00.000Z
 image: /assets/uploads/screenshot-2020-12-16-at-2.40.56-pm.png
 tags:
   - Keptn
