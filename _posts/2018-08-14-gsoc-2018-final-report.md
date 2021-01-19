@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "GSoC 2018 - Final report"
+title: GSoC 2018 - Final report
 author: ankit
-categories: [ GSoC ]
-tags: [Google Summer of Code, Drupal]
-image: /assets/drupal/2018-08/af.png
-featured: true
-hidden: false
 date: 2018-08-14T12:18:16+05:30
+image: /assets/drupal/2018-08/af.png
+tags:
+  - Google Summer of Code
+  - Drupal
+categories:
+  - GSoC
+hidden: false
+featured: false
 ---
 
 Welcome to my Google Summer of Code 2018 project's final report summary.
